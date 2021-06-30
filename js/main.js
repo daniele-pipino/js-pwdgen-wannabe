@@ -9,10 +9,8 @@ poi chiedi il suo colore preferito
 Infine scrivi sulla pagina nomecognomecolorepreferito21
  */
 
-// elemento html
-
-var yourPassword = document.getElementById('laTuaPassword');
-console.log('laTuaPassword')
+// recupero elemento html
+var passwordSpot = document.getElementById('laTuaPassword');
 
 // variabili
 var nome = prompt('Inserisci il tuo nome');
@@ -23,10 +21,9 @@ var colore = prompt('Inserisci il tuo colore preferito');
 console.log('colore preferito:', colore);
 
 // messaggio
-
 var message = 'La tua password è ';
-var passwordPlaceholder = '22';
+var passwordPlaceholder = '21';
 
 // risultato
 
-laTuaPassword.innerText = message + nome + cognome + colore + passwordPlaceholder;
+passwordSpot.innerText = message + nome + cognome + colore + passwordPlaceholder;
