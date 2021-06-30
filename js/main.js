@@ -14,10 +14,19 @@ Infine scrivi sulla pagina nomecognomecolorepreferito21
 var yourPassword = document.getElementById('laTuaPassword');
 console.log('laTuaPassword')
 
-variabili
+// variabili
 var nome = prompt('Inserisci il tuo nome');
-console.log(nome);
+console.log('nome utente:',nome);
 var cognome = prompt('Inserisci il tuocognome');
-console.log(cognome);
+console.log('cognome: ',cognome);
 var colore = prompt('Inserisci il tuo colore preferito');
-console.log(colore);
+console.log('colore preferito:', colore);
+
+// messaggio
+
+var message = 'La tua password è ';
+var passwordPlaceholder = '22';
+
+// risultato
+
+laTuaPassword.innerText = message + nome + cognome + colore + passwordPlaceholder;
