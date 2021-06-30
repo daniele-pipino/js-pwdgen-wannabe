@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(22, 22, 122);
+}
+
+
+
+.text-white{
+    color: white;
+    
+}
+
+.p-box{
+    background-color: rgb(105, 179, 243);
+    height: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    line-height: 30px;
+}
+
